@@ -340,7 +340,7 @@
         </section>
 
         <!-- 3. 追加セクション：逃亡中リターンズ申込導線 -->
-        <section class="py-16 md:py-24 bg-zinc-950 text-white relative px-4 z-20 overflow-hidden reveal">
+        <section class="py-16 md:py-24 bg-zinc-955 text-white relative px-4 z-20 overflow-hidden reveal">
             <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20 pointer-events-none"></div>
             <!-- Red Warning Glow background behind -->
             <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-alert-red/20 rounded-full blur-[100px] pointer-events-none"></div>
@@ -356,7 +356,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left mb-10 max-w-2xl mx-auto">
                     <div class="bg-zinc-900 p-5 border-l-4 border-alert-red rounded-r-xl shadow-md hover:border-white transition-all">
                         <span class="text-zinc-500 text-[10px] font-black block uppercase tracking-wider mb-1">対象</span>
-                        <span class="text-white font-black text-sm md:text-base">小学1年生〜6年生の親子</span>
+                        <span class="text-white font-black text-sm md:text-base">小学1年生〜6年生 of 親子</span>
                     </div>
                     <div class="bg-zinc-900 p-5 border-l-4 border-alert-red rounded-r-xl shadow-md hover:border-white transition-all">
                         <span class="text-alert-red text-[10px] font-black block uppercase tracking-wider mb-1">STATUS</span>
@@ -437,7 +437,8 @@
                     <h4 class="font-jp font-black text-gray-800 text-sm md:text-lg mb-6 tracking-widest uppercase flex items-center justify-center gap-2">
                         <i class="fas fa-store text-pop-orange"></i>出店予定店舗
                     </h4>
-                    <div class="grid grid-cols-2 md:grid-cols-6 gap-4">
+                    <!-- 7店舗用に最適化したグリッド表示 -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-4">
                         <div class="bg-zinc-50 hover:bg-white hover:scale-105 hover:shadow-lg transition-all duration-300 border border-zinc-100 p-5 rounded-2xl flex flex-col justify-center items-center shadow-sm">
                             <span class="text-3xl mb-2 animate-bounce-slow">🍗</span>
                             <span class="text-xs md:text-sm font-black text-gray-855">味のイサム</span>
@@ -448,19 +449,25 @@
                         </div>
                         <div class="bg-zinc-50 hover:bg-white hover:scale-105 hover:shadow-lg transition-all duration-300 border border-zinc-100 p-5 rounded-2xl flex flex-col justify-center items-center shadow-sm">
                             <span class="text-3xl mb-2 animate-bounce-slow" style="animation-delay: 0.4s">🍺</span>
-                            <span class="text-xs md:text-sm font-black text-gray-855 leading-tight">Cafe & 串焼きダイニングTAKA</span>
+                            <span class="text-xs md:text-sm font-black text-gray-855 leading-tight">TAKA</span>
                         </div>
+                        <!-- cocoroのアイコンを「🍧」から「🍰」（ケーキ）に変更 -->
                         <div class="bg-zinc-50 hover:bg-white hover:scale-105 hover:shadow-lg transition-all duration-300 border border-zinc-100 p-5 rounded-2xl flex flex-col justify-center items-center shadow-sm">
-                            <span class="text-3xl mb-2 animate-bounce-slow" style="animation-delay: 0.6s">🍧</span>
+                            <span class="text-3xl mb-2 animate-bounce-slow" style="animation-delay: 0.6s">🍰</span>
                             <span class="text-xs md:text-sm font-black text-gray-855">cocoro</span>
                         </div>
                         <div class="bg-zinc-50 hover:bg-white hover:scale-105 hover:shadow-lg transition-all duration-300 border border-zinc-100 p-5 rounded-2xl flex flex-col justify-center items-center shadow-sm">
                             <span class="text-3xl mb-2 animate-bounce-slow" style="animation-delay: 0.8s">🍜</span>
-                            <span class="text-xs md:text-sm font-black text-gray-855">千両だし まほろば</span>
+                            <span class="text-xs md:text-sm font-black text-gray-855">まほろば</span>
                         </div>
                         <div class="bg-zinc-50 hover:bg-white hover:scale-105 hover:shadow-lg transition-all duration-300 border border-zinc-100 p-5 rounded-2xl flex flex-col justify-center items-center shadow-sm">
                             <span class="text-3xl mb-2 animate-bounce-slow" style="animation-delay: 1.0s">🍔</span>
                             <span class="text-xs md:text-sm font-black text-gray-855">Big Bang Diner</span>
+                        </div>
+                        <!-- りんやのアイコンを「🍡」から「🍧」（かき氷）に変更 -->
+                        <div class="bg-zinc-50 hover:bg-white hover:scale-105 hover:shadow-lg transition-all duration-300 border border-zinc-100 p-5 rounded-2xl flex flex-col justify-center items-center shadow-sm">
+                            <span class="text-3xl mb-2 animate-bounce-slow" style="animation-delay: 1.2s">🍧</span>
+                            <span class="text-xs md:text-sm font-black text-gray-855">りんや</span>
                         </div>
                     </div>
                     <p class="text-[10px] md:text-xs text-gray-400 font-bold mt-5 tracking-wider">※出店内容・販売メニューは変更となる場合があります。</p>
@@ -495,7 +502,7 @@
                         <div class="col-span-1 text-gray-500 font-black flex items-center"><i class="fas fa-map-marker-alt mr-2 text-pop-blue"></i>会場</div>
                         <div class="col-span-2 text-gray-800 leading-relaxed font-black">
                             羽生中央公園<br>
-                            <span class="text-zinc-400 text-xs font-bold">〒348-0052 埼玉県羽生市東9丁目1-1</span>
+                            <span class="text-zinc-404 text-xs font-bold">〒348-0052 埼玉県羽生市東9丁目1-1</span>
                         </div>
                     </div>
                     <div class="grid grid-cols-3 border-b border-gray-100 p-4 md:p-6 hover:bg-zinc-50 transition">
@@ -530,7 +537,7 @@
             </div>
         </section>
 
-        <!-- 8. 追加：最新情報・雨天時案内 -->
+        <!-- 8. 最新情報・雨天時案内 -->
         <section class="py-16 md:py-24 bg-gray-55 px-4 border-t border-gray-200 reveal">
             <div class="container mx-auto max-w-3xl">
                 <!-- 最新情報の案内 -->
@@ -568,7 +575,7 @@
                     <h2 class="text-3xl md:text-5xl font-jp font-black text-gray-800 mt-2 tracking-tight">
                         協賛企業・団体一覧
                     </h2>
-                    <p class="text-zinc-400 text-xs md:text-sm font-bold mt-2">羽生JCフェスティバル2026を支援してくださっている協賛パートナーです</p>
+                    <p class="text-zinc-404 text-xs md:text-sm font-bold mt-2">羽生JCフェスティバル2026を支援してくださっている協賛パートナーです</p>
                 </div>
 
                 <!-- 協賛画像 (kyousan.png) の表示 -->
@@ -753,13 +760,13 @@
                             <h2 class="font-jp font-black text-lg md:text-2xl text-gray-855 mb-2 uppercase tracking-tighter">E-SPORTS対決</h2>
                             <p class="text-xs md:text-sm text-gray-655 font-bold leading-relaxed">
                                 巨大スクリーンで「マリオカート ワールド」対決！<br>
-                                初心者でも気軽に楽しめる、子どもから大人まで盛り上がれるレースブースです。家族や友達と一緒に、白熱 of レースにチャレンジしよう！
+                                初心者でも気軽に楽しめる、子どもから大人まで盛り上がれるレースブースです。家族や友達と一緒に、白熱のレースにチャレンジしよう！
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- 射定ブース -->
+                <!-- 射撃ブース -->
                 <div class="bg-white rounded-3xl p-5 md:p-8 shadow-[0_15px_35px_rgba(0,0,0,0.02)] border border-orange-100/40 border-b-8 border-b-pop-orange text-gray-800 hover:-translate-y-1.5 transition-transform duration-300 reveal">
                     <div class="flex flex-col sm:flex-row gap-5 items-center sm:items-start text-center sm:text-left">
                         <div class="w-16 h-16 md:w-24 md:h-24 bg-gradient-to-br from-pop-orange to-pop-yellow rounded-2xl flex items-center justify-center text-white text-3xl md:text-5xl shrink-0 shadow-lg shadow-pop-orange/30 transform hover:rotate-3 transition duration-300">
@@ -769,8 +776,8 @@
                             <span class="text-[9px] md:text-xs font-black text-pop-orange bg-orange-50 border border-pop-orange px-3 py-1 rounded-full inline-block mb-2 tracking-wider">羽生市商工会青年部</span>
                             <h2 class="font-jp font-black text-lg md:text-2xl text-gray-855 mb-2 uppercase tracking-tighter">射的ブース</h2>
                             <p class="text-xs md:text-sm text-gray-655 font-bold leading-relaxed">
-                                狙いを定めて景品ゲットを目指しよう！<br>
-                                組織である羽生市商工会青年部による、子どもたちに人気の体験ブースです。親子で一緒に楽しみながら、お祭り気分を味わおう！
+                                狙いを定めて景品ゲットを目指そう！<br>
+                                羽生市商工会青年部による、子どもたちに人気の体験ブースです。親子で一緒に楽しみながら、お祭り気分を味わおう！
                             </p>
                         </div>
                     </div>
@@ -907,7 +914,7 @@
                 体育館の中にも、楽しい体験が盛りだくさん。
             </p>
             <p class="text-gray-655 text-xs sm:text-sm md:text-lg font-bold">
-                家族や友達と一緒に、わくわくアリーナを楽しもう！
+                家族や友達と一緒に、わくわくアリーナを楽しおう！
             </p>
         </section>
 
@@ -1055,7 +1062,7 @@
                     </div>
                     <div class="border-b border-zinc-850 pb-4 hover:border-alert-red transition duration-300">
                         <span class="text-gray-500 text-xs font-black uppercase tracking-wider block mb-1">会場</span>
-                        <span class="text-white font-black">羽生中央公園<br class="md:hidden"><span class="text-zinc-400 text-xs font-medium md:ml-2">（〒348-0052 埼玉県羽生市東9丁目1-1）</span></span>
+                        <span class="text-white font-black">羽生中央公園<br class="md:hidden"><span class="text-zinc-404 text-xs font-medium md:ml-2">（〒348-0052 埼玉県羽生市東9丁目1-1）</span></span>
                     </div>
                     <div class="border-b border-zinc-850 pb-4 hover:border-alert-red transition duration-300">
                         <span class="text-gray-500 text-xs font-black uppercase tracking-wider block mb-1">対象</span>
@@ -1178,7 +1185,7 @@
                     </div>
                     <div class="bg-zinc-900/95 p-5 md:p-6 border border-zinc-850 rounded-xl space-y-4">
                         <p class="text-caution-yellow text-xs md:text-sm font-black flex items-center gap-1.5"><i class="fas fa-coins text-glow-yellow"></i>参加費の具体的な計算例</p>
-                        <ul class="space-y-2 text-zinc-400 font-black">
+                        <ul class="space-y-2 text-zinc-404 font-black">
                             <li class="flex justify-between border-b border-zinc-850 pb-1.5"><span>· お子様1人 ＋ 保護者様1人</span> <span class="text-white font-digital">500円</span></li>
                             <li class="flex justify-between border-b border-zinc-855 pb-1.5"><span>· お子様2人 ＋ 保護者様1人</span> <span class="text-white font-digital">1,000円</span></li>
                             <li class="flex justify-between border-b border-zinc-855 pb-1.5"><span>· お子様3人 ＋ 保護者様2人</span> <span class="text-white font-digital">1,500円</span></li>
@@ -1312,7 +1319,7 @@
         </section>
 
         <!-- 9. WORDS / ことばの説明 -->
-        <section class="py-16 bg-zinc-950/70 border-t border-zinc-900 px-4 reveal">
+        <section class="py-16 bg-zinc-955/70 border-t border-zinc-900 px-4 reveal">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-10">
                     <h3 class="font-impact text-2xl md:text-3xl text-white tracking-widest uppercase">Words</h3>
@@ -1404,7 +1411,7 @@
                 </h4>
                 <div class="space-y-4 text-zinc-355 font-bold text-xs md:text-base leading-relaxed">
                     <p class="leading-relaxed">
-                        雨天、荒天、熱中症リスクが高い場合など、安全な実施が難しいと判断した場合は、内容の変更または中止となる場合があります。
+                        雨天、荒天、熱中症リスクが高い場合など、安全な実施が難しいと判断した場合は、内容 of 変更または中止となる場合があります。
                     </p>
                     <p class="text-caution-yellow text-glow-yellow font-black">
                         当日の実施可否は、当日6:00を目安に判断し、<a href="https://www.instagram.com/hanyujc_674/?hl=ja" target="_blank" rel="noopener noreferrer" class="text-caution-yellow hover:text-white underline transition-colors font-bold">公式Instagram</a>にてお知らせします。
@@ -1548,7 +1555,7 @@
                 </div>
             </div>
 
-            <div class="max-w-xl mx-auto bg-zinc-955 p-6 rounded-xl border border-zinc-800 text-xs md:text-sm text-zinc-400 text-left space-y-3 font-bold shadow-2xl leading-relaxed">
+            <div class="max-w-xl mx-auto bg-zinc-955 p-6 rounded-xl border border-zinc-800 text-xs md:text-sm text-zinc-404 text-left space-y-3 font-bold shadow-2xl leading-relaxed">
                 <p>※キャンセル待ち等の受付は行っておりません。</p>
                 <p>※アリーナ・グルメマルシェエリアは、逃亡中不参加の方でも自由にお楽しみいただけます！</p>
                 <p>※最新情報は<a href="https://www.instagram.com/hanyujc_674/?hl=ja" target="_blank" rel="noopener noreferrer" class="text-pop-sky hover:text-white underline transition-colors font-bold">公式Instagram</a>にてご確認ください。</p>
@@ -1558,7 +1565,7 @@
         <!-- ========================================== -->
         <!-- MISSION SPONSORS SECTION (TOUBOUCHU) -->
         <!-- ========================================== -->
-        <section id="toubouchu-sponsors" class="py-16 px-4 bg-zinc-950/80 border-t border-zinc-900 reveal">
+        <section id="toubouchu-sponsors" class="py-16 px-4 bg-zinc-955/80 border-t border-zinc-900 reveal">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-12">
                     <span class="bg-alert-red text-black text-[10px] md:text-xs font-black tracking-[0.25em] px-4 py-1.5 rounded-none skew-x-[-10deg] inline-block mb-3 animate-pulse border border-alert-red shadow-[0_0_10px_#ff0000]">
